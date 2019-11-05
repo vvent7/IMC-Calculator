@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2{
+	font-weight: normal;
+	margin: 0px;
+	color: white;
+}
+
+h1{
+	font-size: 20px;
+}
+
+h2{
+	font-size: 14px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+input{
+	border: 1px solid #D9D9D9;
+	border-radius: 8px;
+	font-size: 12px;
+	height: 30px;
+	padding: 1px 4px;
+	text-align: center;
+	margin-right: 5px;
+	width: 200px;
+}
+
+.desc{
+	font-size: 14px;
+}
+
+.container{
+	display: inline-block;
+	border-radius: 10px;
+	overflow: hidden;
+	border: 1px solid #D9D9D9;
+	box-shadow: 1px 1px 4px #888888;
+}
+
+.left{
+	display: inline-block;
+	width: 65%;
+	padding: 15px;
+	width: 420px;
+}
+
+.right{
+	display: inline-block;
+	width: 160px;
+	text-align: center;
+	opacity: 0.2;
+}
+
+.header{
+	background-color: #00ACC1;
+	padding: 15px;
+}
+
+.meter{
+	font-size: 12px;
+	vertical-align: bottom;
+}
+
+.number{
+	letter-spacing: 5px;
+	font-size: 48px;
+}
+
+.result{
+	font-size: 14px;
+	
+}
+

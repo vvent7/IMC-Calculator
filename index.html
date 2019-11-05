@@ -6,9 +6,34 @@
 		<meta charset="utf-8">
 		<title>Calculadora</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="script/script.js"></script>
 	</head>
 	
-	<body>
+	<body onload="start()">
+
+		<div class="container">
+			<div class="header">
+
+				<h1>Índice de massa corporal (IMC)</h1>
+				<h2>Uma medida de gordura corporal em adultos</h2>
+
+			</div>
+
+			<div class="content">
+				
+				<div class="left">
+					<div class="desc">Peso</div>
+					<input id="weight" type="number"><span class="meter">kg</span><br>
+					<div class="desc" style="margin-top: 8px">Altura</div>
+					<input id="height" type="number"><span class="meter">cm</span>
+				</div><div id="right" class="right">
+					<div id="number" class="number">--.-</div>
+					<div id="result" class="result">IMC</div>
+				</div>
+
+			</div>
+
+		</div>
 		
 	</body>
 
