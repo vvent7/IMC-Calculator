@@ -10,18 +10,18 @@ function calculate(){
 		result=Math.round(result*100)/100;
 
 		number.innerHTML=result;
-		if(result<18.5) imc="Abaixo do peso";
-		else if(result<25) imc="Normal";
-		else if(result<30) imc="Sobrepeso";
-		else if(result<40) imc="Obesidade";
-		else imc="Obesidade grave";
+		if(result<18.5) imc.innerHTML="Abaixo do peso";
+		else if(result<25) imc.innerHTML="Normal";
+		else if(result<30) imc.innerHTML="Sobrepeso";
+		else if(result<40) imc.innerHTML="Obesidade";
+		else imc.innerHTML="Obesidade grave";
 
 		right.style.opacity=1.0;
 	}
 	else{
 		right.style.opacity=0.2;
 		number.innerHTML="--.-";
-		imc="IMC";
+		imc.innerHTML="IMC";
 	}
 
 }
